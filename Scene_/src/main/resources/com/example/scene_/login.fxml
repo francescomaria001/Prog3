@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="908.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.scene_.LoginController">
+   <left>
+      <AnchorPane prefHeight="730.0" prefWidth="440.0" style="-fx-background-color: #EAFAF1; -fx-border-color: #0598ff;"
+                  BorderPane.alignment="CENTER">
+         <TextField fx:id="AdminName" layoutX="107.0" layoutY="334.0" prefHeight="31.0" prefWidth="206.0"
+                    promptText="UserName"
+                    style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;"/>
+         <TextField fx:id="AdminPassword" layoutX="107.0" layoutY="409.0" prefHeight="31.0" prefWidth="205.0"
+                    promptText="Password"
+                    style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;"/>
+         <Text fill="#0598ff" layoutX="159.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin">
+            <font>
+               <Font size="35.0"/>
+            </font>
+         </Text>
+         <Button fx:id="ButtonAdmin" layoutX="171.0" layoutY="499.0" mnemonicParsing="false" prefHeight="28.0"
+                 prefWidth="85.0" style="-fx-background-color: #0598ff;" text="Login" textFill="#fcfcfc"/>
+         <ImageView fx:id="IMage1" fitHeight="52.0" fitWidth="91.0" layoutX="180.0" layoutY="148.0" pickOnBounds="true"
+                    preserveRatio="true">
+            <!-- <image>
+                   <Image url="@../../../Image/User-removebg-preview.png" />
+               </image> -->
+         </ImageView>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="730.0" prefWidth="447.0" style="-fx-background-color: #d5f5e3;"
+                  BorderPane.alignment="CENTER">
+         <TextField fx:id="UserName" layoutX="126.0" layoutY="334.0" promptText="UserName"
+                    style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;"/>
+         <TextField fx:id="UserPassword" layoutX="126.0" layoutY="428.0" promptText="Password"
+                    style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;"/>
+         <Text fill="#0598ff" layoutX="140.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UserLogin">
+            <font>
+               <Font size="35.0"/>
+            </font>
+         </Text>
+         <Button fx:id="ButtonUser" layoutX="157.0" layoutY="500.0" mnemonicParsing="false" prefHeight="27.0"
+                 prefWidth="85.0" style="-fx-background-color: #0598ff;" text="Login" textFill="WHITE"/>
+         <Label layoutX="88.0" layoutY="576.0" text="Register Account" textFill="#0598ff">
+            <font>
+               <Font size="30.0"/>
+            </font>
+         </Label>
+         <Button fx:id="ButtonRegister" layoutX="157.0" layoutY="638.0" mnemonicParsing="false" prefHeight="27.0"
+                 prefWidth="86.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE"/>
+         <ImageView fx:id="Image2" fitHeight="62.0" fitWidth="69.0" layoutX="166.0" layoutY="143.0" pickOnBounds="true"
+                    preserveRatio="true">
+            <!-- <image>
+                   <Image url="file:\C:\Users\lenovo\OneDrive\Desktop\Image\Screenshot_2024-02-02_075937-removebg-preview.png" />
+               </image> -->
+         </ImageView>
+      </AnchorPane>
+   </center>
+</BorderPane>
